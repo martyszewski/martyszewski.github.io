@@ -3,6 +3,8 @@ layout: post
 title: Connecting Excel to a Local lakeFS Server: A Clearer Guide
 ---
 
+## Connecting Excel to a Local lakeFS Server: A Clearer Guide
+
 This guide solves a common but tricky problem: connecting a modern Excel add-in (like xlwings Lite) to a lakeFS server running on your own computer (`localhost`). When you try this, you'll likely run into security errors from your web browser.
 
 Here, we'll break down why this happens and provide a clear, step-by-step solution using a simple tool called NGINX.
