@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Connecting Excel to a Local lakeFS Server: A Clearer Guide
+title: Connecting Excel to a Local lakeFS Server
 ---
 
 ## Connecting Excel to a Local lakeFS Server: A Clearer Guide
