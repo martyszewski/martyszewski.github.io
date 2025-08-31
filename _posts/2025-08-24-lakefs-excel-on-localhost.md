@@ -1,9 +1,8 @@
-
 ---
-title: Excel ↔ LakeFS on localhost: a practical guide to CORS & Private Network Access (PNA) — with a tiny NGINX sidecar
+title: "Excel ↔ LakeFS on localhost: a practical guide to CORS & Private Network Access (PNA) — with a tiny NGINX sidecar"
 date: 2025-08-24
 categories: [Technical]
-tags: [lakefs], [excel], [xlwings]
+tags: [lakefs, xlwings]
 ---
 
 # Excel ↔ LakeFS on localhost: a practical guide to CORS & Private Network Access (PNA) — with a tiny NGINX sidecar
