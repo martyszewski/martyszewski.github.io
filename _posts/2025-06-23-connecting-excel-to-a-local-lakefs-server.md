@@ -94,7 +94,7 @@ Before diving into the implementation details, here is a summary of the possible
 
 ### Solution 1 (Recommended): The NGINX "Sidecar" Proxy
 
-The most effective and non-intrusive solution is to deploy an **NGINX reverse proxy**. The idea is not new; [**Maximillian Xavier’s 2020 blog post**](https://maximillianxavier.medium.com/solving-cors-problem-on-local-development-with-docker-4d4a25cd8cfe "Solving CORS problem on local development with Docker, by Maximillian Xavier, Medium") already suggested to *“run a Docker container with NGINX acting as reverse proxy. Two files, one container, one simple solution\!”* We’ve adapted this elegant idea for **2025-era browsers** that now enforce the stricter Private Network Access (PNA) checks.
+The most effective and non-intrusive solution is to deploy an **NGINX reverse proxy**. The idea is not new; [**Maximillian Xavier’s 2020 blog post**](https://maximillianxavier.medium.com/solving-cors-problem-on-local-development-with-docker-4d4a25cd8cfe "Solving CORS problem on local development with Docker; by Maximillian Xavier; Medium") already suggested to *“run a Docker container with NGINX acting as reverse proxy. Two files, one container, one simple solution\!”* We’ve adapted this elegant idea for **2025-era browsers** that now enforce the stricter Private Network Access (PNA) checks.
 
 Notably, this aligns perfectly with official guidance. The [**xlwings Lite documentation**](https://lite.xlwings.org/web_requests?utm_source=chatgpt.com "Web API Requests - xlwings Lite documentation") explicitly suggests using a **CORS proxy** if you don’t control the API, and recommends **hosting your own** for privacy reasons—which is exactly what this solution accomplishes.
 
